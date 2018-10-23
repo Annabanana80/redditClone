@@ -1,0 +1,108 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+ .avatar{
+ 	border-radius: 50px;
+ }
+
+ ul.nav.nav-tabs{
+ 	margin-top: 5px;
+ 	padding-bottom: 5px;
+ }
+ .social-btn{
+	text-decoration: none;
+	border:1px solid #96f0ff;
+	display: block;
+	color: black;
+	width: 100px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	border-radius: 2px;
+	vertical-align: middle;
+	background-color: #cef8ff; background-image: -webkit-gradient(linear, left top, left bottom, from(#cef8ff), to(#7fe0f8));
+	background-image: -webkit-linear-gradient(top, #cef8ff, #7fe0f8);
+	background-image: -moz-linear-gradient(top, #cef8ff, #7fe0f8);
+	background-image: -ms-linear-gradient(top, #cef8ff, #7fe0f8);
+	background-image: -o-linear-gradient(top, #cef8ff, #7fe0f8);
+	background-image: linear-gradient(to bottom, #cef8ff, #7fe0f8);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#cef8ff, endColorstr=#7fe0f8);
+}
+.social-btn:hover{
+	text-decoration:none;
+	border:1px solid #68e9ff;
+	background-color: #9bf1ff; background-image: -webkit-gradient(linear, left top, left bottom, from(#9bf1ff), to(#4fd4f5));
+	background-image: -webkit-linear-gradient(top, #9bf1ff, #4fd4f5);
+	background-image: -moz-linear-gradient(top, #9bf1ff, #4fd4f5);
+	background-image: -ms-linear-gradient(top, #9bf1ff, #4fd4f5);
+	background-image: -o-linear-gradient(top, #9bf1ff, #4fd4f5);
+	background-image: linear-gradient(to bottom, #9bf1ff, #4fd4f5);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#9bf1ff, endColorstr=#4fd4f5);
+}
+.social-btn-2{
+	text-decoration: none;
+	border:1px solid #a0a0f2; 
+	display: block;
+	color: black;
+	width: 100px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	border-radius: 2px;
+	vertical-align: middle;
+ background-color: #d2d2f9; background-image: -webkit-gradient(linear, left top, left bottom, from(#d2d2f9), to(#a6a6f2));
+ background-image: -webkit-linear-gradient(top, #d2d2f9, #a6a6f2);
+ background-image: -moz-linear-gradient(top, #d2d2f9, #a6a6f2);
+ background-image: -ms-linear-gradient(top, #d2d2f9, #a6a6f2);
+ background-image: -o-linear-gradient(top, #d2d2f9, #a6a6f2);
+ background-image: linear-gradient(to bottom, #d2d2f9, #a6a6f2);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#d2d2f9, endColorstr=#a6a6f2);
+}
+.social-btn-2:hover{
+	text-decoration: none;
+	border:1px solid #7878ed;
+ background-color: #a5a5f3; background-image: -webkit-gradient(linear, left top, left bottom, from(#a5a5f3), to(#7a7aeb));
+ background-image: -webkit-linear-gradient(top, #a5a5f3, #7a7aeb);
+ background-image: -moz-linear-gradient(top, #a5a5f3, #7a7aeb);
+ background-image: -ms-linear-gradient(top, #a5a5f3, #7a7aeb);
+ background-image: -o-linear-gradient(top, #a5a5f3, #7a7aeb);
+ background-image: linear-gradient(to bottom, #a5a5f3, #7a7aeb);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#a5a5f3, endColorstr=#7a7aeb);
+}
+.social-btn-3{
+	text-decoration: none;
+	border:1px solid #f94df8;
+	display: block;
+	color: black;
+	width: 100px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	border-radius: 2px;
+	vertical-align: middle;
+ background-color: #fb83fa; background-image: -webkit-gradient(linear, left top, left bottom, from(#fb83fa), to(#e93cec));
+ background-image: -webkit-linear-gradient(top, #fb83fa, #e93cec);
+ background-image: -moz-linear-gradient(top, #fb83fa, #e93cec);
+ background-image: -ms-linear-gradient(top, #fb83fa, #e93cec);
+ background-image: -o-linear-gradient(top, #fb83fa, #e93cec);
+ background-image: linear-gradient(to bottom, #fb83fa, #e93cec);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#fb83fa, endColorstr=#e93cec);
+}
+.social-btn-3:hover{
+	border:1px solid #f820f6;
+ background-color: #f952f8; background-image: -webkit-gradient(linear, left top, left bottom, from(#f952f8), to(#dc16df));
+ background-image: -webkit-linear-gradient(top, #f952f8, #dc16df);
+ background-image: -moz-linear-gradient(top, #f952f8, #dc16df);
+ background-image: -ms-linear-gradient(top, #f952f8, #dc16df);
+ background-image: -o-linear-gradient(top, #f952f8, #dc16df);
+ background-image: linear-gradient(to bottom, #f952f8, #dc16df);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f952f8, endColorstr=#dc16df);
+}
